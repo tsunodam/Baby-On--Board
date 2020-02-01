@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "265918196187",
+    "firebase_url": "https://baby-on-board-7d50b.firebaseio.com",
+    "project_id": "baby-on-board-7d50b",
+    "storage_bucket": "baby-on-board-7d50b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:265918196187:android:9fc18c49bfa1c9ff8e1ffe",
+        "android_client_info": {
+          "package_name": "com.example.babyonboard"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "265918196187-i24l485fhbo9msn887ea62iijj647091.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.babyonboard",
+            "certificate_hash": "e50d792a64a9e22de0e81c972b8b7187f1a3e930"
+          }
+        },
+        {
+          "client_id": "265918196187-7ut10lvqrspsn7nfvfgf47cd8ok5fmdj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyArd8eO5Jlb3pBm5qw0SqfgYF5YL8TrBKs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "265918196187-7ut10lvqrspsn7nfvfgf47cd8ok5fmdj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
