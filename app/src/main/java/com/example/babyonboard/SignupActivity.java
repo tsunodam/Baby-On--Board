@@ -108,7 +108,7 @@ public class SignupActivity extends AppCompatActivity {
                         if (!task.isSuccessful()) {
                             SignupActivity.this.showToast("Authentication failed. " + task.getException());
                         } else {
-                            SignupActivity.this.startActivity(new Intent(SignupActivity.this, MainActivity.class));
+                            SignupActivity.this.startActivity(new Intent(SignupActivity.this, Home.class));
                             SignupActivity.this.finish();
                         }
                     }

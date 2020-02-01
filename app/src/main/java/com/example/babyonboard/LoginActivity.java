@@ -50,7 +50,7 @@ public class LoginActivity extends AppCompatActivity {
         //move to main activity if user already sign in
         if (firebaseAuth.getCurrentUser() != null) {
             // User is logged in
-            startActivity(new Intent(LoginActivity.this, MainActivity.class));
+            startActivity(new Intent(LoginActivity.this, Home.class));
             finish();
         }
 
@@ -107,7 +107,7 @@ public class LoginActivity extends AppCompatActivity {
                                     }
 
                                 } else {
-                                    LoginActivity.this.startActivity(new Intent(LoginActivity.this, MainActivity.class));
+                                    LoginActivity.this.startActivity(new Intent(LoginActivity.this, Home.class));
                                     LoginActivity.this.finish();
                                 }
                             }
