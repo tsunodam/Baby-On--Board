@@ -3,7 +3,7 @@
     <color name="colorPrimary">#008577</color>
     <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#D81B60</color>
-        <color name="bg_login">#26ae90</color>
+        <color name="bg_login">#26AE90</color>
         <color name="bg_register">#2e3237</color>
         <color name="bg_main">#428bca</color>
         <color name="white">#ffffff</color>
@@ -15,5 +15,7 @@
         <color name="btn_login">#26ae90</color>
         <color name="btn_login_bg">#eceef1</color>
         <color name="lbl_name">#333333</color>
-        <color name="btn_logut_bg">#ff6861</color>
-    </resources>
+        <color name="btn_logut_bg">#192841</color>
+    <color name="navy_icon">#192841</color>
+    <color name="navy_text">#152238</color>
+</resources>
