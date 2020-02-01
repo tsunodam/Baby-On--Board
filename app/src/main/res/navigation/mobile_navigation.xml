@@ -13,7 +13,7 @@
 
     <fragment
         android:id="@+id/navigation_diary"
-        android:name="com.example.babyonboard.ui.dashboard.DashboardFragment"
+        android:name="com.example.babyonboard.ui.diary.DiaryFragment"
         android:label="@string/title_diary"
         tools:layout="@layout/fragment_diary" />
 

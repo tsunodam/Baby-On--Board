@@ -1,4 +1,4 @@
-package com.example.babyonboard.ui.dashboard;
+package com.example.babyonboard.ui.diary;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -14,17 +14,17 @@ import androidx.lifecycle.ViewModelProviders;
 
 import com.example.babyonboard.R;
 
-public class DashboardFragment extends Fragment {
+public class DiaryFragment extends Fragment {
 
-    private DashboardViewModel dashboardViewModel;
+    private DiaryViewModel diaryViewModel;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
-        dashboardViewModel =
-                ViewModelProviders.of(this).get(DashboardViewModel.class);
+        diaryViewModel =
+                ViewModelProviders.of(this).get(DiaryViewModel.class);
         View root = inflater.inflate(R.layout.fragment_diary, container, false);
         final TextView textView = root.findViewById(R.id.text_dashboard);
-        dashboardViewModel.getText().observe(this, new Observer<String>() {
+        diaryViewModel.getText().observe(this, new Observer<String>() {
             @Override
             public void onChanged(@Nullable String s) {
                 textView.setText(s);
