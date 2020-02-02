@@ -24,6 +24,7 @@
         android:layout_width="100dp"
         android:layout_height="70dp"
         android:text="Add to calendar"
+
         android:layout_below="@+id/symptoms"
         android:layout_marginLeft="80dp"/>
 
