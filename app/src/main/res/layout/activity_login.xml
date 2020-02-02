@@ -34,7 +34,7 @@
             android:inputType="textEmailAddress"
             android:maxLines="1"
             android:singleLine="true"
-            android:textColor="@android:color/white" />
+            android:textColor= "@android:color/black" />
 
 
         <EditText
@@ -48,7 +48,7 @@
             android:inputType="textPassword"
             android:maxLines="1"
             android:singleLine="true"
-            android:textColor="@android:color/white" />
+            android:textColor= "@android:color/black" />
 
         <Button
             android:id="@+id/login_button"
@@ -69,7 +69,7 @@
             android:background="@color/colorAccent"
             android:text="@string/btn_forgot_password"
             android:textAllCaps="false"
-            android:textColor="#130409" />
+            android:textColor="@android:color/black" />
 
         <!--Link to sign in activity-->
 
@@ -81,7 +81,7 @@
             android:background="@color/colorAccent"
             android:text="@string/btn_link_to_register"
             android:textAllCaps="false"
-            android:textColor="#090404"
+            android:textColor="@android:color/black"
             android:textSize="15dp" />
 
     </LinearLayout>
