@@ -9,13 +9,14 @@
         android:layout_height="wrap_content" />
 
     <EditText
-        android:id="@+id/editText2"
+        android:id="@+id/symptoms"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="Enter symptom: " />
-
+        android:hint="Symptoms"
+        android:inputType="textShortMessage"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:textColor="@android:color/black" />
     <Button
         android:id="@+id/button2"
         android:layout_width="match_parent"
