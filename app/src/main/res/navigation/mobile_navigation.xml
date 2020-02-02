@@ -19,7 +19,14 @@
 
     <fragment
         android:id="@+id/navigation_resources"
-        android:name="com.example.babyonboard.ui.notifications.NotificationsFragment"
+        android:name="com.example.babyonboard.ui.resources.ResourcesFragment"
         android:label="@string/title_resources"
         tools:layout="@layout/fragment_resources" />
+
+    <fragment
+        android:id="@+id/navigation_care"
+        android:name="com.example.babyonboard.CareFragment1"
+        android:label="@string/title_care"
+        tools:layout="@layout/fragment_care" />
+
 </navigation>
