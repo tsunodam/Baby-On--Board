@@ -35,19 +35,5 @@
         android:layout_marginLeft="220dp"
         android:text="View" />
 
-<!--    <Button-->
-<!--        android:id="@+id/closeView"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:text="Close"-->
-<!--        android:layout_marginTop="300dp"-->
-<!--        android:layout_marginLeft="250dp" />-->
-
-<!--    <TextView-->
-<!--        android:id="@+id/viewPopUp"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:text="SampleText"-->
-<!--        android:padding="25sp" />-->
 
 </RelativeLayout>

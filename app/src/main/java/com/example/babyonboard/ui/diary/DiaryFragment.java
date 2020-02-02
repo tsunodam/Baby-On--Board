@@ -25,25 +25,6 @@ import com.example.babyonboard.R;
 import java.util.List;
 import java.util.ListIterator;
 
-//public class DiaryFragment extends Fragment {
-//
-//    Button button;
-//
-//    @Override
-//    protected void onCreate(Bundle savedInstanceState) {
-//        super.onCreate(savedInstanceState);
-//        setContentView(R.layout.fragment_diary);
-//
-//        button = (Button) findViewById(R.id.buttonAdd);
-//
-//        button.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                Toast.makeText(DiaryFragment.this, "Added", Toast.LENGTH_SHORT).show();
-//            }
-//        });
-//    };
-//}
 
 public class DiaryFragment extends Fragment {
 
