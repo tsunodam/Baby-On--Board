@@ -46,13 +46,6 @@ public class LoginActivity extends AppCompatActivity {
 
         firebaseAuth = FirebaseAuth.getInstance();
 
-        //auto login process
-        //move to main activity if user already sign in
-        if (firebaseAuth.getCurrentUser() != null) {
-            // User is logged in
-            startActivity(new Intent(LoginActivity.this, Home.class));
-            finish();
-        }
 
         setContentView(R.layout.activity_login);
         ButterKnife.bind(this);

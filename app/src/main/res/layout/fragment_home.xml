@@ -1,21 +1,165 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-
-    <TextView
-        android:id="@+id/text_home"
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
-        android:textAlignment="center"
-        android:textSize="20sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:text="Hello World"/>
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="209dp"
+                android:layout_height="156dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="520dp"
+                android:layout_marginEnd="28dp"
+                android:layout_marginRight="50dp"
+                android:text="Week 6:
+                                            > It's time for your 6 week check up! It's very important to make sure you're healing well
+                           > If all is well you may be able to exercise and have sex
+                      "
+                android:textColor="#070505"
+
+                />
+
+            <View
+                android:id="@+id/view4"
+                android:layout_width="50dp"
+                android:layout_height="4dp"
+                android:layout_below="@+id/textView4"
+                android:layout_alignLeft="@+id/view5"
+                android:layout_gravity="center"
+                android:layout_marginTop="51dp"
+                android:background="@color/colorPrimary" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="209dp"
+                android:layout_height="156dp"
+                android:layout_below="@+id/textView4"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="28dp"
+                android:layout_marginRight="28dp"
+                android:text="Week 3-6:
+                                            > Postpartum bleeding should be slowing down until it stops
+
+                                                 > For C-sections: The incision may be numb or tender, but the pain should be mild
+                           > Postpartum blues should level out
+                      "
+
+                android:textColor="#0E0A0A" />
+
+            <View
+                android:id="@+id/view3"
+                android:layout_width="50dp"
+                android:layout_height="4dp"
+                android:layout_below="@+id/textView3"
+                android:layout_alignLeft="@+id/view5"
+                android:layout_gravity="center"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="51dp"
+                android:layout_marginEnd="60dp"
+                android:layout_marginRight="60dp"
+                android:background="@color/colorPrimary" />
+
+            <View
+                android:id="@+id/view2"
+                android:layout_width="50dp"
+                android:layout_height="4dp"
+                android:layout_below="@+id/textView3"
+                android:layout_alignLeft="@+id/view5"
+                android:layout_marginLeft="1dp"
+                android:layout_marginTop="-97dp"
+                android:layout_marginEnd="60dp"
+                android:layout_marginRight="60dp"
+                android:background="@color/colorPrimary"
+                android:hapticFeedbackEnabled="true" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="197dp"
+                android:layout_height="117dp"
+                android:layout_below="@+id/textView3"
+                android:layout_centerHorizontal="true"
+                android:layout_marginEnd="40dp"
+                android:layout_marginRight="40dp"
+                android:text="Week 2:
+                                            > Starting to feel better!
+
+                           > For C-sections: Incision healing, may feel itchy
+                           > May feel hot flashes
+                           > Vaginal soreness as you recover, but less pain
+
+                      "
+                android:textColor="#0A0707" />
+
+            <TextView
+                android:id="@+id/text_home"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginEnd="8dp"
+                android:text="Postpartum Recovery Timeline"
+                android:textAlignment="center"
+                android:textColor="#070505"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <View
+                android:id="@+id/view5"
+                android:layout_width="7dp"
+                android:layout_height="600dp"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="48dp"
+                android:layout_marginLeft="48dp"
+                android:background="@color/colorPrimary"
+                android:textAlignment="center" />
+
+            <View
+                android:id="@+id/view6"
+                android:layout_width="50dp"
+                android:layout_height="4dp"
+                android:layout_below="@+id/textView6"
+                android:layout_alignLeft="@+id/view5"
+                android:layout_gravity="center"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="-100dp"
+                android:layout_marginEnd="60dp"
+                android:layout_marginRight="60dp"
+                android:background="@color/colorPrimary" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="202dp"
+                android:layout_height="128dp"
+                android:layout_below="@+id/text_home"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="32dp"
+                android:layout_marginRight="32dp"
+                android:text="Week 1:
+                                            > Heavy bleeding
+
+                           > Uterine contractions, especially while breastfeeding
+                           > Feeling moody and irritable
+                           > 10-15 lbs of weight loss
+
+                      "
+                android:textColor="#070606" />
+
+        </RelativeLayout>
+
+    </ScrollView>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
